@@ -1,5 +1,4 @@
 import React from "react";
-import "./Main.scss";
 import RendezVous from "./RendezVous";
 import Questions from "./Questions";
 import ContactezNous from "./ContactezNous";
