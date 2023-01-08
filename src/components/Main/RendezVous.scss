@@ -1,0 +1,93 @@
+.blog1 {
+  padding: 0 120px !important;
+  .rendezVous {
+    margin: 0 148px;
+    padding: 48px 73px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(63, 121, 168, 0.25);
+    border-radius: 16px;
+    margin-top: -100px;
+    z-index: 100;
+    position: relative;
+    .inputs {
+      @media (min-width: 1400px) {
+        display: flex;
+      }
+      input {
+        border-radius: 14px;
+        border-color: #d4d4d4;
+        width: 100%;
+      }
+      input::placeholder {
+        padding-left: 30px;
+      }
+      .icon_input {
+        height: 1.5rem;
+        width: 1.5rem;
+        padding: 4px;
+        position: absolute;
+        box-sizing: border-box;
+        top: 25px;
+        left: 20px;
+        transform: translateY(-50%);
+      }
+      .icon_input_seconde {
+        left: auto;
+        right: 20px;
+      }
+      > div {
+        width: -webkit-fill-available;
+      }
+    }
+  }
+  > .medecinIdeal {
+    padding: 100px 0 140px;
+    > h2 {
+      font-weight: 700;
+      font-size: 48px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    > .steps {
+      padding-top: 33px;
+      div {
+        background-color: white;
+        box-shadow: 0px 0px 20px rgba(63, 121, 168, 0.25);
+
+        padding: 31px 64px;
+        border-radius: 16px;
+        text-align: center;
+        z-index: 10;
+        > .title {
+          font-weight: bold;
+        }
+        > img {
+          padding-top: 95px;
+          padding-bottom: 80px;
+        }
+        .choosing {
+          padding-bottom: 80px;
+        }
+      }
+      > .hide {
+        opacity: 0.5;
+        height: max-content;
+        margin-top: 45px;
+        z-index: 5;
+        > img {
+          padding-top: 64px;
+          padding-bottom: 67px;
+        }
+        .choosing {
+          padding-bottom: 42px;
+        }
+      }
+      > .step3 {
+        margin-right: -20px;
+      }
+      > .step2 {
+        margin-left: -20px;
+      }
+    }
+  }
+}

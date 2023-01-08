@@ -23,14 +23,9 @@
   margin: 0;
 }
 
-p {
-  font-size: 20px;
-}
-
 .title {
   color: #333333;
   font-weight: 700;
-  font-size: 24px !important;
 }
 
 button {
@@ -41,12 +36,11 @@ button {
   color: white;
   text-transform: uppercase !important;
   font-size: 16px;
-  font-weight: 700;
   background: #3f79a8;
   white-space: nowrap;
 }
 
-input {
+input{
   height: 52px;
 }
 

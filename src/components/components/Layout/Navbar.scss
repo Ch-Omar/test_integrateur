@@ -1,0 +1,84 @@
+.doctor {
+  width: 100%;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  padding: 0 120px;
+  width: -webkit-fill-available;
+  > .logo_buttons {
+    display: flex;
+    justify-content: space-between;
+    .buttons {
+      display: flex;
+      margin-top: 59px;
+      .seconde {
+        margin-left: 43px;
+        background: #5eba24;
+      }
+    }
+  }
+  .highLine {
+    color: white;
+    > div {
+      > h1 {
+        text-transform: uppercase;
+        box-sizing: content-box;
+        font-weight: bold;
+        > .words {
+          overflow: hidden;
+          height: 45px;
+          > span {
+            display: block;
+            height: 100%;
+            animation: spin_words 10s infinite;
+            color: #3f79a8;
+            @keyframes spin_words {
+              0% {
+                transform: translateY(0%);
+              }
+              10% {
+                transform: translateY(-112%);
+              }
+              20% {
+                transform: translateY(-100%);
+              }
+              30% {
+                transform: translateY(-212%);
+              }
+              40% {
+                transform: translateY(-200%);
+              }
+              50% {
+                transform: translateY(-312%);
+              }
+              60% {
+                transform: translateY(-300%);
+              }
+              70% {
+                transform: translateY(-412%);
+              }
+              80% {
+                transform: translateY(-400%);
+              }
+              90% {
+                transform: translateY(-512%);
+              }
+              95% {
+                transform: translateY(-500%);
+              }
+              100% {
+                transform: translateY(-100%);
+              }
+            }
+          }
+        }
+      }
+      button {
+        background: #3f79a8;
+        color: white;
+      }
+    }
+  }
+}

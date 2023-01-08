@@ -1,0 +1,20 @@
+.blog3 {
+  padding: 116px 120px 165px;
+  > div {
+    > .subTitle {
+      color: #525252;
+    }
+    > .listOfLorem {
+      color: #525252;
+      list-style-type: none;
+      padding-left: 0;
+      > li > img {
+        width: 18px;
+        margin-right: 18px;
+      }
+    }
+    > button {
+      margin-top: 40px;
+    }
+  }
+}
