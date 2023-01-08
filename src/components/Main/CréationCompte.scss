@@ -1,8 +1,14 @@
 .blog3 {
   padding: 116px 120px 165px;
+  @media (max-width: 767px) {
+    padding: 48px 25px 59px;
+    text-align: center;
+  }
   > div {
+    padding-left: 0;
     > .subTitle {
       color: #525252;
+      font-weight: 700;
     }
     > .listOfLorem {
       color: #525252;
@@ -15,6 +21,14 @@
     }
     > button {
       margin-top: 40px;
+      @media (max-width: 767px) {
+        margin-top: 16px;
+      }
+    }
+    @media (max-width: 767px) {
+      > img {
+        padding: 0 24px;
+      }
     }
   }
 }

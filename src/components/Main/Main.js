@@ -3,7 +3,7 @@ import "./Main.scss";
 import RendezVous from "./RendezVous";
 import Questions from "./Questions";
 import ContactezNous from "./ContactezNous";
-import Protége from "./Protége";
+import Protégé from "./Protégé";
 import CréationCompte from "./CréationCompte";
 
 const Main = () => {
@@ -12,7 +12,7 @@ const Main = () => {
       <RendezVous />
       <Questions />
       <CréationCompte />
-      <Protége />
+      <Protégé />
       <ContactezNous />
     </div>
   );

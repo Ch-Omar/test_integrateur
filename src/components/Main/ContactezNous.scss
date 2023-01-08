@@ -1,10 +1,36 @@
 .blog5 {
   padding: 100px 120px;
   white-space: nowrap;
-  .title {
-    padding-right: 32px;
+  @media (max-width: 970px) {
+    white-space: normal;
+  }
+  @media (max-width: 768px) {
+    padding: 23px 24px 47px;
+    text-align: center !important;
+  }
+  > div {
+    margin: 0;
+    > p {
+      padding-left: 0;
+    }
   }
   .button_contactez {
     text-align: right;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+    > button {
+      background: #5eba24;
+      @media (max-width: 1399px) {
+        margin-top: 20px;
+      }
+      > img {
+        width: 18px;
+        margin-right: 25px;
+      }
+    }
+    @media (max-width: 767px) {
+      text-align: center;
+    }
   }
 }

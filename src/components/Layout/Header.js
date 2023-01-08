@@ -1,7 +1,7 @@
 import React from "react";
-import "./Navbar.scss";
+import "./Header.scss";
 
-const NavBar = () => {
+const Header = () => {
   return (
     <div>
       <img
@@ -18,7 +18,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="highLine">
-          <div className="col-md-8">
+          <div>
             <h1>
               consultez un
               <div className="words">
@@ -28,12 +28,13 @@ const NavBar = () => {
                 <span style={{ color: "#5EBA24" }}>cardiologue</span>
                 <span>opticien</span>
                 <span style={{ color: "#5EBA24" }}>psychologue</span>
-              </div>
+              </div>{" "}
+              <br />
               en qui vous avez confiance.
             </h1>
             <p>
-              Nous éliminons les devinettes pour trouver un médecin dans votre
-              région pour vous et votre famille.
+              Nous éliminons les devinettes pour trouver un <br /> médecin dans
+              votre région pour vous et votre famille.
             </p>
             <button>En savoir plus</button>
           </div>
@@ -43,4 +44,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Header;

@@ -1,0 +1,33 @@
+.blog4 {
+  padding: 120px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(63, 121, 168, 0.25);
+  margin: 0;
+  @media (max-width: 767px) {
+    padding: 32px;
+    flex-direction: column-reverse;
+  }
+  .protection {
+    text-align: right;
+    @media (max-width: 767px) {
+      text-align: center !important;
+      > button {
+        margin-top: 0px !important;
+      }
+    }
+    > button {
+      margin-top: 36px;
+    }
+  }
+  @media (max-width: 767px) {
+    > div {
+      text-align: -webkit-center;
+      img {
+        width: 312px;
+        display: flex;
+        text-align: center;
+        margin-top: 35px;
+      }
+    }
+  }
+}
